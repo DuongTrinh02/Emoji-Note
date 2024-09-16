@@ -300,7 +300,7 @@
                 android:fontFamily="@font/nunito_semi_bold_600"
                 android:text="@string/see_all_time_line"
                 android:textAllCaps="false"
-                android:textColor="@color/green_stroke"
+                android:textColor="@color/primary_1"
                 android:textSize="16sp"
                 android:visibility="gone" />
         </LinearLayout>

@@ -6,7 +6,7 @@
     <group>
         <clip-path android:pathData="M20,0L20,0A20,20 0,0 1,40 20L40,20A20,20 0,0 1,20 40L20,40A20,20 0,0 1,0 20L0,20A20,20 0,0 1,20 0z" />
         <path
-            android:fillColor="#39C870"
+            android:fillColor="@color/primary_1"
             android:pathData="M0,20a20,20 0,1 0,40 0a20,20 0,1 0,-40 0z" />
         <path
             android:fillColor="#ffffff"
@@ -15,6 +15,6 @@
             android:fillColor="#00000000"
             android:pathData="M39.25,20C39.25,30.632 30.632,39.25 20,39.25C9.369,39.25 0.75,30.632 0.75,20C0.75,9.369 9.369,0.75 20,0.75C30.632,0.75 39.25,9.369 39.25,20Z"
             android:strokeWidth="1.5"
-            android:strokeColor="#23B35A" />
+            android:strokeColor="#CC3700" />
     </group>
 </vector>

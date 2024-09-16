@@ -7,10 +7,10 @@
     android:padding="8dp">
 
     <LinearLayout
-        android:id="@+id/btnDone"
+        android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_radius_item_choose_time"
+        android:background="@drawable/bg_radius_item_choose_time_2"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="8dp"
@@ -21,16 +21,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/nunito_bold_700"
-            android:text="@string/done"
-            android:textColor="@color/text_color"
+            android:text="@string/reset"
+            android:textColor="@color/primary_1"
             android:textSize="18dp" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/btnReset"
+        android:id="@+id/btnDone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/bg_radius_item_choose_time_2"
+        android:background="@drawable/bg_radius_item_choose_time"
         android:gravity="center"
         android:orientation="horizontal"
         android:padding="8dp"
@@ -41,8 +41,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/nunito_bold_700"
-            android:text="@string/reset"
-            android:textColor="@color/primary_1"
+            android:text="@string/done"
+            android:textColor="@color/text_color"
             android:textSize="18dp" />
     </LinearLayout>
 
@@ -55,10 +55,10 @@
         android:gravity="center"
         android:textColor="@color/text_color"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="@id/btnDone"
-        app:layout_constraintEnd_toStartOf="@id/btnReset"
-        app:layout_constraintStart_toEndOf="@id/btnDone"
-        app:layout_constraintTop_toTopOf="@id/btnReset" />
+        app:layout_constraintBottom_toBottomOf="@id/btnReset"
+        app:layout_constraintEnd_toStartOf="@id/btnDone"
+        app:layout_constraintStart_toEndOf="@id/btnReset"
+        app:layout_constraintTop_toTopOf="@id/btnDone" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rcvListIcon"

@@ -593,7 +593,7 @@ class SettingBeanActivity : BaseActivity<ActivitySettingBeanBinding>() {
         if (tabAddEdit == TAB_ADD_EDIT) {
             backgroundResourcesTabEdit = R.drawable.background_tab_selected
             backgroundResourcesTabEditOrder = 0
-            textColorTabEdit = R.color.green_stroke
+            textColorTabEdit = R.color.primary_1
             textColorTabEditOrder = R.color.grey_text_tab
             //show tab add, hide tab edit order
             isShowAddEdit = true
@@ -602,7 +602,7 @@ class SettingBeanActivity : BaseActivity<ActivitySettingBeanBinding>() {
             backgroundResourcesTabEdit = 0
             backgroundResourcesTabEditOrder = R.drawable.background_tab_selected
             textColorTabEdit = R.color.grey_text_tab
-            textColorTabEditOrder = R.color.green_stroke
+            textColorTabEditOrder = R.color.primary_1
             //hide tab add, show tab edit order
             isShowAddEdit = false
         }

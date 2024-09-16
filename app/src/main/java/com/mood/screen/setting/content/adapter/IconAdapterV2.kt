@@ -32,7 +32,7 @@ class IconAdapterV2 : BaseAdapterRecyclerView<IconEntity, ItemTypeBodyBlockIconB
             }
         } else {
             binding.tvIconName.text = context.getString(R.string.add)
-            binding.tvIconName.setTextColor(ContextCompat.getColor(context, R.color.green_stroke))
+            binding.tvIconName.setTextColor(ContextCompat.getColor(context, R.color.primary_1))
         }
         val iconName = if (item.iconIsShow) {
             item.iconUrl ?: "R.drawable.ic_bean_type_default"

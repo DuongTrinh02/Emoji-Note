@@ -62,7 +62,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:backgroundTint="@color/green_stroke"
+                android:backgroundTint="@color/primary_1"
                 android:fontFamily="@font/nunito_extra_bold_800"
                 android:includeFontPadding="false"
                 android:paddingVertical="14dp"
